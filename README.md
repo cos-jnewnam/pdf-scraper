@@ -8,13 +8,12 @@
 
 - **Scrape PDFs or MP4s**: Choose which file type you want to download from a page.
 - **Single ZIP Download**: Bundles all matching files into a single downloadable ZIP.
-- **Real-Time Progress**: Watch chunked scraping updates live on the page.
-- **Smart File Naming**: Files are downloaded using their original names.
+- **Smart File Naming**: Files are downloaded using their original (sanitized) names.
 - **Custom ZIP Name**: Easily name your download package.
 
 ## Requirements
 
-- Node.js
+- Node.js 18+
 - npm (Node Package Manager)
 
 ## Installation
@@ -22,7 +21,7 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/r3hab-media/pdf-scraper.git
+   git clone https://github.com/cos-jnewnam/pdf-scraper.git
    cd pdf-scraper
    ```
 
@@ -81,7 +80,6 @@ MIT License. See the [LICENSE](license) file for details.
 - [Font Awesome](https://fontawesome.com) for icons
 - [Cheerio](https://cheerio.js.org) and [Axios](https://axios-http.com) for HTML parsing and HTTP requests
 - [Archiver](https://www.npmjs.com/package/archiver) for ZIP generation
-- [Socket.IO](https://socket.io) for real-time progress display
 
 ---
 
